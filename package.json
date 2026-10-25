@@ -1,0 +1,21 @@
+{
+  "name": "finansial-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard finansial dengan frontend statis dan backend Express",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "finance",
+    "dashboard",
+    "voice-input",
+    "cashflow"
+  ],
+  "author": "Finansial App",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

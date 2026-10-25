@@ -1,0 +1,152 @@
+{
+  "accounts": [
+    {
+      "id": "bca",
+      "userId": "demo-user",
+      "name": "BCA",
+      "type": "BANK",
+      "balance": 52400000,
+      "scope": "personal",
+      "createdAt": "2026-01-01",
+      "rate": "+3.2%",
+      "isPos": true
+    },
+    {
+      "id": "mandiri",
+      "userId": "demo-user",
+      "name": "Mandiri",
+      "type": "BANK",
+      "balance": 34150000,
+      "scope": "business",
+      "createdAt": "2026-01-01",
+      "rate": "-1.1%",
+      "isPos": false
+    },
+    {
+      "id": "bibit",
+      "userId": "demo-user",
+      "name": "Bibit (Reksadana)",
+      "type": "INVESTMENT",
+      "balance": 26800000,
+      "scope": "personal",
+      "createdAt": "2026-01-01",
+      "rate": "+8.4%",
+      "isPos": true
+    },
+    {
+      "id": "gopay",
+      "userId": "demo-user",
+      "name": "GoPay / E-Wallet",
+      "type": "E_WALLET",
+      "balance": 3250000,
+      "scope": "personal",
+      "createdAt": "2026-01-01",
+      "rate": "+0.5%",
+      "isPos": true
+    },
+    {
+      "id": "tunai",
+      "userId": "demo-user",
+      "name": "Kas Tunai",
+      "type": "CASH",
+      "balance": 11850000,
+      "scope": "business",
+      "createdAt": "2026-01-01",
+      "rate": "+0.0%",
+      "isPos": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": "demo-user",
+      "desc": "Gaji Pokok & Tunjangan",
+      "category": "Gaji & Pendapatan",
+      "accountId": "bca",
+      "amount": 18500000,
+      "type": "income",
+      "scope": "personal",
+      "method": "text",
+      "date": "2026-10-15",
+      "createdAt": "2026-10-15T08:00:00"
+    },
+    {
+      "id": 2,
+      "userId": "demo-user",
+      "desc": "Kopi Kenangan & Sarapan",
+      "category": "Makanan & Minuman",
+      "accountId": "gopay",
+      "amount": 42000,
+      "type": "expense",
+      "scope": "personal",
+      "method": "voice",
+      "date": "2026-10-15",
+      "createdAt": "2026-10-15T07:30:00"
+    },
+    {
+      "id": 3,
+      "userId": "demo-user",
+      "desc": "Belanja Stok Bahan Pokok Toko",
+      "category": "Operasional Bisnis",
+      "accountId": "mandiri",
+      "amount": 685000,
+      "type": "expense",
+      "scope": "business",
+      "method": "manual",
+      "date": "2026-10-14",
+      "createdAt": "2026-10-14T13:00:00"
+    },
+    {
+      "id": 4,
+      "userId": "demo-user",
+      "desc": "Dividen Saham BBCA",
+      "category": "Investasi",
+      "accountId": "bibit",
+      "amount": 1250000,
+      "type": "income",
+      "scope": "personal",
+      "method": "text",
+      "date": "2026-10-12",
+      "createdAt": "2026-10-12T10:00:00"
+    },
+    {
+      "id": 5,
+      "userId": "demo-user",
+      "desc": "Token Listrik PLN & Internet WiFi",
+      "category": "Tagihan & Utilitas",
+      "accountId": "bca",
+      "amount": 750000,
+      "type": "expense",
+      "scope": "personal",
+      "method": "text",
+      "date": "2026-10-10",
+      "createdAt": "2026-10-10T09:00:00"
+    },
+    {
+      "id": 6,
+      "userId": "demo-user",
+      "desc": "Penjualan Harian Warung",
+      "category": "Penjualan & Omset Bisnis",
+      "accountId": "mandiri",
+      "amount": 2450000,
+      "type": "income",
+      "scope": "business",
+      "method": "manual",
+      "date": "2026-10-10",
+      "createdAt": "2026-10-10T18:00:00"
+    },
+    {
+      "id": 7,
+      "userId": "demo-user",
+      "desc": "Bensin Pertamax Mobil",
+      "category": "Transportasi",
+      "accountId": "tunai",
+      "amount": 300000,
+      "type": "expense",
+      "scope": "business",
+      "method": "voice",
+      "date": "2026-10-08",
+      "createdAt": "2026-10-08T15:00:00"
+    }
+  ]
+}
